@@ -117,18 +117,17 @@ public class ApiController {
 	}
 	@RequestMapping(
 			value = { "/api/post-dtable" },
-			method = RequestMethod.POST,
-			headers = "Content-Type=application/x-www-form-urlencoded"
+			method = RequestMethod.POST
+			//headers = "Content-Type=application/x-www-form-urlencoded"
 			)
-	public JSONObject postDtable(@RequestParam(value="data", required=true) String query) throws ParseException {
-
-		//String query;
+	public JSONObject postDtable(@RequestBody Data data) throws ParseException {
+		
+		System.out.println(data.toString());
+		String query = data.getSql();
 		//query = "SELECT * FROM customer";
 		System.out.println(query);
 		ApiController ac = new ApiController();
 		return ac.execiteQuery(query);
 	}
-
-
-
+	
 }
