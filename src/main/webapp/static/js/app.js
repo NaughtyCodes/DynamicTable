@@ -17,14 +17,11 @@ app.controller('MainCtrl', ['$scope', '$http', '$interval',function ($scope, $ht
   
   $scope.submitMyForm=function(){
       /* while compiling form , angular created this object*/
-      var data=$scope.fields;  
-      /* post to server*/
-      alert(data.sql);
       $http({
           method: 'POST',
           url: 'http://localhost:8080/DynamicTable/api/post-dtable',
-          data: data,
-          headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+          data:$scope.fields,
+          headers: {'Content-Type': 'application/json'}
       }).then(function mySucces(response) {
     	  
     	  $scope.gridOptions.columnDefs = response.data.columnDefs
