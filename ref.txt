@@ -17,5 +17,8 @@ angular in depth
 http://henriquat.re/modularizing-angularjs/modularizing-angular-applications/modularizing-angular-applications.html
 
 angular ui-grid version 3 adding onclick button in custom cell template
-http://stackoverflow.com/questions/27621321/action-button-in-angular-ui-grid-3-x-version
+>> http://stackoverflow.com/questions/27621321/action-button-in-angular-ui-grid-3-x-version
+>> http://stackoverflow.com/questions/26621598/angular-ui-grid-events-in-cell-header-not-firing/33792526#33792526
+
+http://stackoverflow.com/questions/33199870/callback-on-cell-click-in-ui-grid
 
