@@ -16,3 +16,6 @@ http://www.teebow.net/splitting-angularjs-controllers-separate-files/
 angular in depth
 http://henriquat.re/modularizing-angularjs/modularizing-angular-applications/modularizing-angular-applications.html
 
+angular ui-grid version 3 adding onclick button in custom cell template
+http://stackoverflow.com/questions/27621321/action-button-in-angular-ui-grid-3-x-version
+
