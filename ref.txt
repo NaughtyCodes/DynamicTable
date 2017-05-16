@@ -1,0 +1,18 @@
+http://www.aspdotnet-suresh.com/2015/07/angularjs-ng-click-event-in-inside-uigrid-cell-template-not-trigger-firing-function-in-controller.html
+http://plnkr.co/edit/vSGZRK28ZfSS09dcBwgO?p=preview
+
+with controller example
+https://plnkr.co/edit/ciExi4w6706sbO4esU0q?p=preview
+
+ ui-grid - v3.0.7-282-g527f802-5f15eab - 2016-12-30
+http://ui-grid.info/release/ui-grid-unstable.js
+
+library link
+https://cdnjs.com/about
+
+Get to know about grunt
+http://www.teebow.net/splitting-angularjs-controllers-separate-files/
+
+angular in depth
+http://henriquat.re/modularizing-angularjs/modularizing-angular-applications/modularizing-angular-applications.html
+
