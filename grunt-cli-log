@@ -1,0 +1,80 @@
+E:\AngularPro>more package.json
+{
+  "name": "gruntexample",
+  "version": "1.0.0",
+  "description": "grunt example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohanakrishnan k",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
+
+E:\AngularPro>npm install angular --save-dev
+gruntexample@1.0.0 E:\AngularPro
+`-- angular@1.6.4
+
+E:\AngularPro>npm install bower --save-dev
+npm WARN deprecated bower@1.8.0: ..psst! While Bower is maintained, we recommend yarn and webpack for new front-end projects! Please read our blog for more.
+gruntexample@1.0.0 E:\AngularPro
+`-- bower@1.8.0
+
+E:\AngularPro>bower init
+? name gruntexample
+? description grunt example project
+? main file index.js
+? keywords
+? authors mohanakrishnan k
+? license ISC
+? homepage
+? set currently installed components as dependencies? Yes
+? add commonly ignored files to ignore list? Yes
+? would you like to mark this package as private which prevents it from being accidentally published to the registry? No
+
+{
+  name: 'gruntexample',
+  description: 'grunt example project',
+  main: 'index.js',
+  authors: [
+    'mohanakrishnan k'
+  ],
+  license: 'ISC',
+  homepage: '',
+  ignore: [
+    '**/.*',
+    'node_modules',
+    'bower_components',
+    'test',
+    'tests'
+  ]
+}
+
+? Looks good? Yes
+
+E:\AngularPro> bower install git://github.com/twbs/bootstrap
+...............
+
+E:\AngularPro>bower install jquery --save
+bower jquery#*                  cached https://github.com/jquery/jquery-dist.git#3.2.1
+bower jquery#*                validate 3.2.1 against https://github.com/jquery/jquery-dist.git#*
+
+E:\AngularPro>bower install angular --save
+.......................
+
+E:\AngularPro>npm install grunt-contrib-concat --save-dev
+gruntexample@1.0.0 E:\AngularPro
+`-- grunt-contrib-concat@1.0.1
+  `-- source-map@0.5.6
+
+E:\AngularPro>npm install grunt-contrib-uglify --save-dev
+...............
+
+E:\AngularPro>grunt
+Running "concat:dist" (concat) task
+
+Running "uglify:dist" (uglify) task
+>> 1 file created 1.52 MB → 261.48 kB
